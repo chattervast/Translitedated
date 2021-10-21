@@ -1,0 +1,40 @@
+{
+    "name": "chattervast/translitedated",
+    "description": "Twig filter to output dates in any locale (language).",
+    "type": "craft-plugin",
+    "version": "1.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "translitedated"
+    ],
+    "support": {
+        "docs": "https://github.com/chattervast/translitedated/blob/master/README.md",
+        "issues": "https://github.com/chattervast/translitedated/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chattervast",
+            "homepage": "https://github.com/chattervast"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "chattervast\\translitedated\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Translitedated",
+        "handle": "translitedated",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/chattervast/translitedated/master/CHANGELOG.md",
+        "class": "chattervast\\translitedated\\Translitedated"
+    }
+}
